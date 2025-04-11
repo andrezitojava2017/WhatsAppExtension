@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "WhatsTest",
+  "version": "1.0",
+  "description": "Teste no whats web",
+  "permissions": ["scripting", "tabs", "storage"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://web.whatsapp.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
