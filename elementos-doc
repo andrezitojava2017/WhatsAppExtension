@@ -1,0 +1,10 @@
+------- message-out--------
+cor texto enviado: #00ffc8
+cor background: #596572
+container resposta de mensagem: #fff9 ( classe .message-out ._aju3)
+classe que identifica a cor do horario: .x13yyeie
+classe que identifica cor background, qdo enviado emogi ou sticker: .xr5525
+
+------- message-in--------
+cor background: #c3c3c3 (classe.message-in ._amk6 )
+cor texto recebido: #000000 (classe 'div.message-out span[dir=ltr]')
