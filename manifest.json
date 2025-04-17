@@ -10,7 +10,7 @@
   "content_scripts": [
     {
       "matches": ["https://web.whatsapp.com/*"],
-      "js": ["content.js"],
+      "js": ["content.js", "manipulation.js"],
       "run_at": "document_end"
     }
   ]

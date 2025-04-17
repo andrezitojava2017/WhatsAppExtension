@@ -3,6 +3,8 @@ const loading = () => {
   let v = document.querySelectorAll("[role=listitem]");
   let photo = document.querySelector("._ak8h");
   let contUser = document.querySelector("._ak8l");
+  
+
   if (v) {
     v.forEach((el) => {
       el.addEventListener("mouseover", (e) => {
@@ -48,6 +50,8 @@ function message_out (){
       console.log('message-out não encontrado')
   }
 }
+
+
 
 const multable = new MutationObserver(loading);
 multable.observe(document.body, {
