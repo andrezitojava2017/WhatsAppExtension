@@ -18,8 +18,20 @@ function avatarUser() {
 
 }
 
+function numberOfConversation(){
+  try {
+    let title = document.querySelector('[title=Conversas]>h1')
+    const element = document.querySelector('[aria-label="Lista de conversas"]');
+    let number = element.ariaRowCount;
+    title.innerText=`${number} conversas`;
+  } catch (error) {
+    console.warn('Nao foi possivel carregar numero de converas')
+  }
+}
+
 setTimeout(() => {
   avatarUser();
+  numberOfConversation()
 }, 10000);
 
 /*
